@@ -38,10 +38,10 @@ Capstone Project 3/
 │   ├── partials/
 │   │   ├── header.ejs      # Header partial for page layout
 │   │   └── footer.ejs      # Footer partial for page layout
-│   ├── home.ejs            # Home page template displaying all posts
-│   ├── compose.ejs         # Page for creating a new post
-│   ├── edit.ejs            # Page for editing an existing post
-├── app.js                  # Main server file for the application
+│   ├── blogDetails.ejs            # Home page template displaying all posts
+│   ├── blogList.ejs         # Page for creating a new post
+│   ├── index.ejs            # Page for editing an existing post
+├── indes.js                  # Main server file for the application
 ├── package.json            # Project dependencies and scripts
 └── README.md               # Project documentation
 ```
