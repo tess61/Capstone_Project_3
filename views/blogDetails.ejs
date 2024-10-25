@@ -1,0 +1,12 @@
+<%- include('partials/header.ejs') %>
+    <div class="container">
+      <div class="break mb-2">
+        <h1 class="text-info"><%= blogDetails?.title %></h1>
+        <!-- <a href="/edit/<%=blogDetails?.id  %>" class="edit-btn">Edit</a> -->
+      </div>
+      <div class="break">
+        <p class="text-info"><%= blogDetails?.description %></p>
+      </div>
+    </div>
+
+    <%- include('partials/footer.ejs') %>
